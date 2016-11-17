@@ -13,7 +13,7 @@ h1, h2, h3{
     text-align: center;
 }
 
-h1{
+#head1{
     font-weight: bold;
     border: 10px solid;
     border-color: magenta;
@@ -22,27 +22,42 @@ h1{
     margin: auto;
 }
 
+.extreme{
+    font-weight: italic;
+    font-family: "Times New Roman", times, serif;
+}
+
+.navzone{
+    font-size: 12px;
+    border: 2px double red;
+    margin: 10px;
+}
+
+
 h3{
     font-weight: italic;
 }
 
 ul{
-    postion: absolute;
-    top: 0px;
-    left: 0px;
     margin: auto;
     display: table;
+    padding: 10px;
 }
 
 li{
     display: table-cell;
-    padding: 30px;
+    font-size: 8px;
+}
+
+#tehlulz:hover{
+    background-color: red;
 }
 
 a{
     text-decoration: none;
     font-size: 24px;
     color: green;
+    padding: 10px;
 }
 
 p{
@@ -52,4 +67,10 @@ p{
     font-family: monaco;
 }
 
+.content{
+    border: 10px double red;
+}
 
+.prose{
+    text-align: justify;
+}
