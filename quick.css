@@ -1,0 +1,30 @@
+html, body{
+    font-family: "Open Sans", sans-serif;
+    background-color: #e8efeb;
+    color: #0d4f12;
+    height: 500px;
+}
+
+.wrapper{
+    text-align: center;
+    margin: 50px;
+    border: 4px solid #163321;
+    border-radius: 5px;
+    height: 500px;
+    
+}
+
+h1{
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+    font-size: 100px;
+    padding: 100px;
+    text-shadow: 10px 10px 10px #42c472;
+}
+
+h1:hover{
+    transition: 2s;
+    text-shadow: 10px 10px 10px #c44b42;
+    font-style: bold;
+}
